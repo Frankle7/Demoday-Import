@@ -1,0 +1,70 @@
+@font-face {
+    font-family: 'fonteheader';
+    src: url("../fontes/Bebas_Neue/BebasNeue-Regular.ttf");
+}
+
+.content {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    justify-items: center;
+    align-items: center;
+    background: #593ec0f2;
+
+
+}
+
+.logo {
+    width: 15%;
+
+
+}
+
+
+
+.navdentro {
+    width: 65%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+   
+
+}
+
+.dp_menu {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.lista{ 
+    width: 100%;
+    height: 100%;
+    margin-top: 3.3%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around; text-align: center;
+    list-style: none;
+}
+
+.lista a{text-decoration: none;}
+
+
+
+
+
+
+.login { 
+    width: 30%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
+}

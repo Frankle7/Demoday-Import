@@ -1,0 +1,55 @@
+.Servicos{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.areas{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 8%;
+    gap: 150px;
+}
+
+.textoservico{
+    width: 55%;
+    font-size: 28px;
+    font-weight: 600;
+    font-family: 'fontetexto';
+}
+
+.textoservico h1{
+    color: #593EC0;
+    padding-left: 2%;
+}
+
+.imgservico{
+    width: 20%;
+}
+
+.div_import{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 7%;
+}
+
+#azul{
+    width: 100%;
+    height: 80px;
+    text-align: center;
+    background-color: #05102E;
+}
+
+#azul img{
+    width: 30%;
+    padding-top: 2%;
+}
+
+#refugiado{
+    width: 15%;
+    margin-right: 10%;
+}

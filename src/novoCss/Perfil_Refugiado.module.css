@@ -1,0 +1,35 @@
+.Perfil_Refugiado{
+    padding-bottom: 5%;
+}
+
+/* .at_curriculo button{
+    background-color: #3A1F86;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    padding: 1% 1% 1% 1%;
+    position: absolute;
+    left: 5%;
+    top: 10%;
+    position: absolute;
+} */
+
+.servicos{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 480px) {
+    .servicos{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 50px;
+        justify-content: center;
+        align-items: center;
+    }
+}

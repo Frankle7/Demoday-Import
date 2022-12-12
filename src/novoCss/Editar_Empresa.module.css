@@ -1,0 +1,81 @@
+@font-face {
+    font-family: 'fontetexto';
+    src: url('../fontes/Open_Sans/OpenSans-VariableFont_wdth\,wght.ttf');
+}
+
+.Perfil_Consulta{
+    background-color: #D0DBFF;
+    font-family: 'fontetexto';
+}
+
+.container_texto{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    gap: 80px;
+}
+
+.txt_qmsomos{
+    width: 50%;
+    font-size: 20px;
+    margin-left: 8%;
+}
+
+.txt_qmsomos h1{
+    padding-bottom: 3%;
+}
+
+.informacoes1, .informacoes2{
+    padding-top: 5%;
+    font-size: 20px;
+}
+
+.atu_cad{
+    margin-left: 8%;
+    padding-bottom: 5%;
+}
+
+.atu_cad button{
+    background-color: #160741;
+    color: #D0DBFF;
+    border: none;
+    padding: 1%;
+}
+
+@media (max-width: 480px) {
+    .container_texto{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    }
+
+    .txt_qmsomos{
+        width: 80%;
+        font-size: 20px;
+        margin-left: 8%;
+    }
+    
+    .txt_qmsomos h1{
+        padding-bottom: 3%;
+    }
+    
+    .informacoes1, .informacoes2{
+        padding-top: 5%;
+        font-size: 16px;
+    }
+    
+    .atu_cad{
+        margin-left: 8%;
+        padding-bottom: 5%;
+    }
+    
+    .atu_cad button{
+        background-color: #160741;
+        color: #D0DBFF;
+        border: none;
+        padding: 1%;
+        margin-left: 26%;
+    }
+}

@@ -1,0 +1,104 @@
+.QuemSomos aside{position: absolute;}
+
+.QuemSomos {
+    width: 100%;
+    height: 800px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #333E50;
+}
+
+.txtquem{
+    width: 55%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: aliceblue;
+    padding-top: 10%;
+}
+
+.txtquem h1{
+    width: 100%;
+    height: 15%;
+    padding-left: 20%;
+    font-size: 60px;
+}
+.txtquem p{
+    width: 100%;
+    height: 35%;
+    padding-left: 20%;
+    font-size: large;
+}
+
+.txtquem img{width: 100%; height: 40%;
+}
+.divT{width: 40%;
+    height: 100%;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: antiquewhite;}
+.depoitotal{
+    width: 100%;
+    height: 100%;
+ 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    color: antiquewhite;
+   
+    
+}
+.depoimage{
+    width: 23%;
+    height: 40%;
+background-color: rgba(160, 183, 181, 0.144);
+display: flex;
+align-items: center;
+justify-content: end;
+justify-items: center;
+margin-top: 10%;
+border-radius: 50%;
+z-index: 1;}
+.depoitxt{
+    width: 60%;
+    height: 40%;
+    align-items: center;
+    color: #eaefff;
+    
+}
+.depoimage img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    filter: grayscale(10%);
+    z-index: 0;
+    
+  
+}
+
+    .depoimage p, .depoimage h2{ 
+    width: 45%;
+    background-color: yellow;
+    }
+
+/*texto COMO CAUSAMOS IMPACTO*/
+#azul{
+    width: 100%;
+    height: 8vh;
+    text-align: center;
+    background-color: #05102E;
+}
+
+#azul img{
+    width: 25%;padding-top: 1%;
+    
+}
+.impacto aside{
+    width: 100%;position: absolute;}

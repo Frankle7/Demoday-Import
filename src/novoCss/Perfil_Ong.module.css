@@ -1,0 +1,73 @@
+.Perfil_Consulta{
+    background-color: aquamarine;
+    background-image: url(../imagens/Perfi_Empregador.png);
+}
+
+.caixihas{
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding-bottom: 5%;
+    gap: 10px;
+}
+
+.caixihas button{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    height: 17rem;
+    text-align: center;
+    align-items: center;
+    font-size: 30px;
+    padding:2%;
+    font-weight: 600;
+    border: none;
+    gap: 30px;
+}
+
+.caixihas img{
+    width: 50%;
+    height: 50%;
+}
+
+#botaolaranja{
+    background-color: #E4580F;
+    color: white;
+}
+
+@media (max-width: 480px) {
+    .caixihas{
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 5%;
+        gap: 10px;
+    }
+    
+    .caixihas button{
+        display: flex;
+        flex-direction: column;
+        width: 40%;
+        height: 10rem;
+        text-align: center;
+        align-items: center;
+        font-size: 16px;
+        padding:2%;
+        font-weight: 600;
+        border: none;
+        gap: 30px;
+    }
+    
+    .caixihas img{
+        width: 50%;
+        height: 50%;
+    }
+    
+    #botaolaranja{
+        background-color: #E4580F;
+        color: white;
+    }
+}

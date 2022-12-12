@@ -1,0 +1,16 @@
+.kaos{width: 100%;
+	height: 0px;
+	padding-inline-start:5% ;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;text-align: center;
+}
+.carousel {
+	margin: 0;
+	
+	padding-inline-end: 5%;
+	width: 100%;
+	position: relative;
+	top: -150px;
+}
+

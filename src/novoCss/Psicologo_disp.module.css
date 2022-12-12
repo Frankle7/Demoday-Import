@@ -1,0 +1,143 @@
+.paciente{
+    background: #D0DBFF;
+    padding-bottom: 10%;
+}
+
+.perfil_psicologo{
+    width: 90%;
+    margin-left: 5%;
+}
+
+.linha{
+    width: 90%;
+    background-color: black;
+    margin-left: 5%;
+}
+
+.area_pessoas{
+    width: 100%;
+    background-color: #D0DBFF;
+    padding-bottom: 3%;
+}
+
+.form_pessoa{
+    width: 100%;   
+}
+
+.expecificacao{
+    margin-right: 40%;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.pesquisar{
+    width: 25%;
+    display: flex;
+    flex-direction: row;
+}
+
+#pesquisar{
+    width: 70%;
+    float: left;
+    border-radius: 10px -10px 0px 10px;
+    padding: 3%;
+}
+
+.procurar_usuario{
+    font-family: 'fontetexto';
+    width: 15%;
+    padding: 1.2%;
+    background-color: #4126A7;
+    float: left;
+    border: none;
+    border-radius: 9px 10px 10px 9px;
+    margin-top: 1%;
+ }
+
+ .expecificacao_pesquisa{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 2%;
+}
+
+
+.pessoas{
+    width: 90%;
+    margin-left: 5%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    gap: 40px;
+    border-radius: 10px;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+@media (max-width: 480px) {
+    .pessoas{
+        width: 90%;
+        margin-left: 5%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: #ffffff;
+        gap: 40px;
+        border-radius: 10px;
+        padding-top: 2%;
+        padding-bottom: 2%;
+    }
+
+    .form_pessoa{
+        width: 100%;   
+        display: flex;
+        flex-direction: row;
+        height: 10vw;
+    }
+
+    .expecificacao{
+        font-size: 18px;
+        font-weight: 500;
+        margin-left: 5%;
+    }
+    
+    .pesquisar{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+    }
+    
+    #pesquisar{
+        width: 100%;
+        float: left;
+        border-radius: 10px -10px 0px 10px;
+        padding: 1%;
+    }
+    
+    .procurar_usuario{
+        font-family: 'fontetexto';
+        width: 55%;
+        padding: 1.2%;
+        background-color: #4126A7;
+        float: left;
+        border: none;
+        border-radius: 9px 10px 10px 9px;
+        margin-top: 1%;
+        margin-right: 5%;
+     }
+
+     .procurar_usuario img{
+        width: 70%;
+     }
+    
+     .expecificacao_pesquisa{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        padding-top: 2%;
+    }
+  }

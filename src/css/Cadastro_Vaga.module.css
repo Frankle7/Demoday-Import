@@ -1,0 +1,581 @@
+@font-face {
+    font-family: 'fontetexto';
+    src: url("../fontes/Open_Sans/OpenSans-VariableFont_wdth\,wght.ttf");
+}
+
+.cadastro_vaga{
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    
+}
+
+label{
+    text-align: left;
+    font-family: 'fontetexto';
+    font-size: 20px;
+    font-weight: 550;
+}
+  
+input{
+    display: inline-block;
+    font-family: 'fontetexto';
+    width: 100%;
+    padding: 1%;
+    border-radius: 15px;
+    font-size: 20px;
+    margin-top: 5px;
+    border: 1px solid black;
+}
+
+.comeco_vaga{
+    width: 55%;
+    height: 180px;
+    background-color: #D0DBFF;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 2%;
+}
+
+.comeco_titulo{
+    width: 75%;
+    height: 100%;
+    padding: 5%;
+    font-family: 'fontetexto';
+}
+
+.comeco_titulo h1{
+    font-size: 30px;
+}
+
+.comeco_titulo h2{
+    padding-left: 3%;
+    font-size: 25px;
+}
+
+.comeco_imagem{
+    width: 30%;
+    height: 100%;
+}
+
+.comeco_imagem img{
+    width: 100%;
+    height: 90%;
+}
+
+.info_vaga{
+    width: 55%;
+    height: 190px;
+    background-color: #D0DBFF;
+    border-radius: 20px;
+    padding: 2%;
+}
+
+.info_vaga p{
+    font-size: 22px;
+    font-weight: 500;
+    margin-top: 1%;
+}
+
+.titulo_vaga{
+    width: 55%;
+    height: 250px;
+    background-color: #D0DBFF;
+    border-radius: 20px;
+    padding: 2%;
+    font-family: 'fontetexto';
+    font-weight: 600;
+}
+
+#tipo_vaga{
+    display: inline-block;
+    font-family: 'fontetexto';
+    width: 100%;
+    padding: 1% 2%;
+    border-radius: 15px;
+    font-size: 20px;
+    margin-top: 5px;
+    border: 1px solid black;
+}
+
+.tip_vg{
+    margin-top: 3%;
+}
+
+.local_vaga{
+    width: 55%;
+    height: 340px;
+    background-color: #D0DBFF;
+    border-radius: 20px;
+    padding: 2%;
+    font-family: 'fontetexto';
+    font-weight: 600;
+}
+
+#cidade_bairro{
+    width: 25%;
+    margin-top: 5%;
+}
+
+.mapa_vaga{
+    width: 55%;
+    height: 300px;
+    background-color: #ffffff;
+    text-align: center;
+    border-radius: 20px;
+    display: flex;
+}
+
+.nome_cima{
+    display: flex;
+    display: inline-block;
+}
+
+.caixas_local_vaga{
+    display: flex;
+    flex-direction: row;
+    display: inline-block;
+}
+
+.salario_num_vaga{
+    width: 55%;
+    height: 330px;
+    background-color: #D0DBFF;
+    border-radius: 20px;
+    padding: 2%;
+    font-weight: 700;
+}
+
+.remuneracao_vaga{
+    margin-top: 2%;
+}
+
+.caixasenha{
+    width: 100%;
+    height: 100px;
+    padding: 2% 0%;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.nome_senha1{
+    float: left;
+    width:20%;
+}
+
+.nome_senha2{
+    float: left;
+    width:100%;
+}
+
+.bene_vaga{
+    width: 55%;
+    height: 450px;
+    background-color: #D0DBFF;
+    border-radius: 20px;
+}
+
+.bene_vaga p{
+    padding: 2%;
+    font-family: 'fontetexto';
+    font-weight: 700;
+}
+
+.bene_vaga img{
+    width: 100%;
+}
+
+.categories{
+    padding: 1rem 2rem;
+    margin-left: 1%;
+    float: left;
+}
+
+.category_section{
+    display: flex;
+    flex-direction: row;
+}
+
+.category{
+    margin-right: 1rem;
+    margin-top: 1rem;
+    gap: 10px;
+    word-wrap: none;
+    white-space: nowrap;
+    border: 1px solid #ccc;
+    border-radius: 900px;
+    background-color: #e7e7e7;
+    padding: .3rem 3rem;
+    font-size: inherit;
+    cursor: pointer;
+    font-family: 'fontetexto';
+}
+
+.category:hover{
+    background-color: #ddd;
+}
+
+.category.active{
+    background-color: #606060;
+    color: white;
+    border-color: #eee;
+}
+
+.category:last-child{
+    margin-right: 0;
+}
+
+.tipo_vaga{
+    width: 55%;
+    height: 350px;
+    background-color: #D0DBFF;
+    padding: 2%;
+    border-radius: 20px;
+    font-weight: 700;
+}
+
+.maisinfo_vaga{
+    width: 55%;
+    height: 150px;
+    background-color: #D0DBFF;
+    padding: 2%;
+    border-radius: 20px;
+    font-weight: 700;
+}
+
+.notificacao_vaga{
+    width: 55%;
+    height: 310px;
+    background-color: #D0DBFF;
+    border-radius: 20px;
+    padding: 2%;
+    font-weight: 700;
+}
+
+.notificacao_vaga p{
+    margin-bottom: 2%;
+}
+
+.fim_vaga{
+    width: 55%;
+    height: 150px;
+    background-color: #D0DBFF;
+    margin-bottom: 5%;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+    align-items: center;
+}
+
+.fim_vaga button{
+    background-color: #000744;
+    border-radius: 20px;
+    border: none;
+    color: white;
+}
+
+.fim_vaga p{
+    margin-left: 20%;
+    font-size: 20px;
+}
+
+.voltar{
+    margin-left: 10%;
+    padding: 2%;
+    width: 15%;
+}
+
+.salvar_continuar{
+    padding: 2%;
+}
+
+.confirm_email{
+    padding-top: 2%;
+    width: 40%;
+}
+
+#input_confirm_email{
+    padding: 3%;
+}
+
+@media (max-width: 480px) {
+    .comeco_vaga{
+        width: 90%;
+        height: 180px;
+        background-color: #D0DBFF;
+        border-radius: 20px;
+        display: flex;
+        flex-direction: row;
+        margin-top: 2%;
+    }
+    
+    .comeco_titulo{
+        width: 75%;
+        height: 100%;
+        padding: 5%;
+        font-family: 'fontetexto';
+    }
+    
+    .comeco_titulo h1{
+        font-size: 22px;
+    }
+    
+    .comeco_titulo h2{
+        font-size: 17px;
+    }
+    
+    .comeco_imagem{
+        width: 40%;
+        height: 100%;
+    }
+    
+    .comeco_imagem img{
+        width: 100%;
+        height: 90%;
+    }
+    
+    .info_vaga{
+        width: 90%;
+        height: 150px;
+        background-color: #D0DBFF;
+        border-radius: 20px;
+        padding: 2%;
+    }
+    
+    .info_vaga p{
+        font-size: 17px;
+        font-weight: 500;
+        margin-top: 1%;
+    }
+    
+    .titulo_vaga{
+        width: 90%;
+        height: 200px;
+        background-color: #D0DBFF;
+        border-radius: 20px;
+        padding: 2%;
+        font-family: 'fontetexto';
+        font-weight: 600;
+    }
+    
+    #tipo_vaga{
+        display: inline-block;
+        font-family: 'fontetexto';
+        width: 100%;
+        padding: 1% 2%;
+        border-radius: 15px;
+        font-size: 20px;
+        margin-top: 5px;
+        border: 1px solid black;
+    }
+    
+    .tip_vg{
+        margin-top: 3%;
+    }
+    
+    .local_vaga{
+        width: 90%;
+        height: 280px;
+        background-color: #D0DBFF;
+        border-radius: 20px;
+        padding: 2%;
+        font-family: 'fontetexto';
+        font-weight: 600;
+    }
+    
+    .mapa_vaga{
+        width: 90%;
+        height: 300px;
+        background-color: #ffffff;
+        text-align: center;
+        border-radius: 20px;
+        display: flex;
+    }
+    
+    .nome_cima{
+        display: flex;
+        display: inline-block;
+    }
+    
+    .caixas_local_vaga{
+        display: flex;
+        flex-direction: row;
+        display: inline-block;
+    }
+    
+    .salario_num_vaga{
+        width: 90%;
+        height: 270px;
+        background-color: #D0DBFF;
+        border-radius: 20px;
+        padding: 2%;
+        font-weight: 700;
+    }
+    
+    .remuneracao_vaga{
+        margin-top: 2%;
+    }
+    
+    .caixasenha{
+        width: 100%;
+        height: 100px;
+        padding: 2% 0%;
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+    }
+    
+    .nome_senha1{
+        float: left;
+        width:20%;
+    }
+    
+    .nome_senha2{
+        float: left;
+        width:100%;
+    }
+    
+    .bene_vaga{
+        width: 90%;
+        height: 160vw;
+        background-color: #D0DBFF;
+        border-radius: 20px;
+    }
+    
+    .bene_vaga p{
+        padding: none;
+        font-family: 'fontetexto';
+        font-weight: 700;
+        padding: 0%;
+    }
+    
+    .bene_vaga img{
+        width: 100%;
+    }
+    
+    .categories{
+        padding: 0rem 1rem;
+        float: left;
+    }
+    
+    .category_section{
+        display: flex;
+        flex-direction: column;
+
+    }
+    
+    .category{
+        width: 90%;
+        font-size: 15px;
+        padding: 1%;
+        border: 1px solid #ccc;
+        border-radius: 900px;
+        background-color: #e7e7e7;
+        padding: .3rem 3rem;
+        /* font-size: inherit; */
+        cursor: pointer;
+        font-family: 'fontetexto';
+    }
+    
+    .category:hover{
+        background-color: #ddd;
+    }
+    
+    .category.active{
+        background-color: #606060;
+        color: white;
+        border-color: #eee;
+    }
+    
+    .category:last-child{
+        margin-right: 0;
+    }
+    
+    .tipo_vaga{
+        width: 90%;
+        height: 160vw;
+        background-color: #D0DBFF;
+        padding: 2%;
+        border-radius: 20px;
+        font-weight: 700;
+        font-size: 17px;
+    }
+
+    .maisinfo_vaga{
+        width: 90%;
+        height: 120px;
+        background-color: #D0DBFF;
+        padding: 2%;
+        border-radius: 20px;
+        font-weight: 700;
+    }
+
+    .maisinfo_vaga p{
+        font-size: 17px;
+    }
+    
+    .notificacao_vaga{
+        width: 90%;
+        height: 280px;
+        background-color: #D0DBFF;
+        border-radius: 20px;
+        padding: 2%;
+        font-weight: 700;
+    }
+    
+    .notificacao_vaga p{
+        margin-bottom: 2%;
+        font-size: 17px;
+    }
+    
+    .fim_vaga{
+        width: 90%;
+        height: 200px;
+        background-color: #D0DBFF;
+        margin-bottom: 5%;
+        border-radius: 20px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+    }
+    
+    .fim_vaga button{
+        background-color: #000744;
+        border-radius: 20px;
+        border: none;
+        color: white;
+    }
+    
+    .fim_vaga p{
+        margin-left: 1%;
+        font-size: 20px;
+    }
+    
+    .voltar{
+        margin-left: 5%;
+        padding: 3%;
+        width: 30%;
+        margin-top: 5%;
+    }
+    
+    .salvar_continuar{
+        padding: 3%;
+    }
+    
+    .confirm_email{
+        padding-top: 2%;
+        width: 100%;
+    }
+    
+    #input_confirm_email{
+        padding: 3%;
+    }
+}

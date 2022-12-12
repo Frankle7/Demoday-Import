@@ -1,0 +1,249 @@
+@font-face {
+    font-family: 'fontetexto';
+    src: url('../fontes/Open_Sans/OpenSans-VariableFont_wdth\,wght.ttf');
+}
+
+.registro_psicologo{
+    width: 100%;
+    background: #ffffff;
+    display: flex;
+    flex-direction: row;
+    float: left;
+    font-family: 'fontetexto';
+}
+
+.formulario_psicologo{
+    width: 60%;
+    padding: 5%;
+}
+
+.caixa_form{
+    margin-bottom: 1%;
+    width: 100%;
+    height: 12%;
+}
+
+label{
+    text-align: left;
+    font-family: 'fontetexto';
+    font-size: 20px;
+    
+}
+  
+input{
+    display: inline-block;
+    font-family: 'fontetexto';
+    width: 100%;
+    padding: 1%;
+    border-radius: 15px;
+    font-size: 20px;
+    margin-top: 5px;
+    border: 1px solid black;
+}
+
+.crie_conta{
+    width: 35%;
+    height: 500px;
+    background: #FFF7F7;
+    margin-top: 5%;
+    border-radius: 30px;
+}
+
+.textos_crie_conta{
+    width: 100%;
+    height: 45%;
+    align-items: center;
+    justify-content: space-around;
+    display: flex;
+    flex-direction: column;
+}
+
+.textos_crie_conta h1{
+    text-align: center;
+    font-family: 'fontetexto';
+    font-size: 30px;
+    width: 70%;
+    font-weight: 600;
+}
+
+.textos_crie_conta p{
+    width: 70%;
+    font-size: 25px;
+    font-family: 'fontetexto';
+    font-weight: bold;
+}
+
+.imagem_psicologo{
+    height: 400px;
+    width: 100%;
+}
+
+.imagem_psicologo img{
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+}
+
+.botao {
+    font-family: 'fontetexto';
+    width: 25%;
+    background: #000744;
+    color: #ffffff;
+    border-radius:25px;
+    cursor:pointer;
+    font-size:22px;
+    padding-top:10px;
+    padding-bottom:10px;
+    font-weight:700;
+    text-decoration: none;
+    margin-left: 35%;
+    margin-top: 5%;
+  }
+
+  .caixasenha{
+    width: 100%;
+    height: 100px;
+    padding: 2% 0%;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.nome_senha1{
+    float: left;
+    width:20%;
+}
+
+.nome_senha2{
+    float: left;
+    width:100%;
+}
+
+@media (max-width: 480px) {
+    .registro_psicologo{
+        width: 100%;
+        background: #ffffff;
+        display: flex;
+        flex-direction: column-reverse;
+        font-family: 'fontetexto';
+    }
+
+    .formulario_psicologo{
+        width: 100%;
+        padding: 5%;
+        margin-top: 50%;
+        float: left;
+    }
+    
+    .caixa_form{
+        margin-bottom: 2%;
+        width: 100%;
+        height: 12%;
+    }
+    
+    label{
+        text-align: left;
+        font-family: 'fontetexto';
+        font-size: 20px;
+    }
+      
+    input{
+        display: inline-block;
+        font-family: 'fontetexto';
+        width: 100%;
+        padding: 1%;
+        border-radius: 15px;
+        font-size: 20px;
+        margin-top: 1%;
+        border: 1px solid black;
+    }
+    
+    .crie_conta{
+        width: 80%;
+        margin-left: 10%;
+        height: 55vw;
+        background: #D0DBFF;
+        margin-top: 5%;
+        border-radius: 30px;
+        margin-bottom: 2%;
+    }
+    
+    .textos_crie_conta{
+        width: 100%;
+        height: 45%;
+        align-items: center;
+        justify-content: space-around;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .textos_crie_conta h1{
+        text-align: center;
+        font-family: 'fontetexto';
+        font-size: 18px;
+        width: 70%;
+        font-weight: 600;
+        padding-top: 5%;
+    }
+    
+    .textos_crie_conta p{
+        width: 70%;
+        font-size: 17px;
+        font-family: 'fontetexto';
+        font-weight: bold;
+        text-align: center;
+    }
+    
+    .imagem_psicologo{
+        width: 100%;
+        padding-top: 5%;
+    }
+    
+    .imagem_psicologo img{
+        width: 100%;
+        height: 70%;
+        border-radius: 30px;
+    }
+    
+    .botao {
+        font-family: 'fontetexto';
+        width: 45%;
+        background: #000744;
+        color: #ffffff;
+        border-radius:25px;
+        cursor:pointer;
+        font-size:17px;
+        padding-top:10px;
+        padding-bottom:10px;
+        font-weight:700;
+        text-decoration: none;
+        margin-top: 5%;
+      }
+    
+      .caixasenha{
+        width: 100%;
+        height: 100px;
+        padding: 2% 0%;
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+    }
+    
+    .nome_senha1{
+        float: left;
+        width:20%;
+    }
+    
+    .nome_senha2{
+        float: left;
+        width:100%;
+    }
+    
+    .botoes_ong{
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 5%;
+        width: 100%;
+        justify-content: center;
+    }
+}

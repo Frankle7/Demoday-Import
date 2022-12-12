@@ -1,0 +1,53 @@
+.caixihas{
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding-bottom: 5%;
+}
+
+.caixihas button{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    height: 17rem;
+    text-align: center;
+    align-items: center;
+    font-size: 30px;
+    padding:2%;
+    font-weight: 600;
+}
+
+.caixihas img{
+    width: 60%;
+    height: 70%;
+}
+
+@media (max-width: 480px) {
+    .caixihas{
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        display: flex;
+        padding-bottom: 5%;
+    }
+    
+    .caixihas button{
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        height: 9rem;
+        text-align: center;
+        align-items: center;
+        font-size: 17px;
+        padding:2%;
+        font-weight: 600;
+    }
+    
+    .caixihas img{
+        width: 40%;
+        height: 50%;
+        margin-bottom: 10%;
+    }
+}

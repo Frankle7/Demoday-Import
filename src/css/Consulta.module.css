@@ -1,0 +1,96 @@
+.consulta{
+    width: 100%;
+    height: 500px;
+    background: rgba(161, 181, 249, 0.4);
+    display: flex;
+    flex-direction: column;
+}
+
+#prox_consulta{
+    border: 5px solid #130a5a;
+    width: 12%;
+    text-align: center;
+    font-size: 19px;
+    line-height: 20px;
+    font-weight: 500;
+    padding-top: 1%;
+    margin-left: 25%;
+    margin-top: 1%;
+}
+
+.dia_data{
+    width: 80%;
+    margin-left: 10%;
+    display: flex;
+    flex-direction: row;
+    background-color: #0174bb74;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2%;
+    gap: 40px;
+}
+
+.dia_data p{
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+}
+
+.data{
+    width: 80%;
+    margin-left: 10%;
+    height: 10rem;
+    display: flex;
+    flex-direction: row;
+}
+
+#consulta{
+    width: 10%;
+    color: #130a5a;
+}
+
+#consulta p{
+    background-color: #E4580F;
+    font-size: 20px;
+    width: 90%;
+    height: 40px;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 70%;
+    margin-left: 60%;
+}
+
+.horario{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5%;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.horario p{
+    width: 8%;
+    height: 40px;
+    text-align: center;
+    margin-top: 2%;
+}
+
+.laranja{
+    background-color: #E4580F;
+    font-size: 20px;
+    width: 8%;
+    height: 40px;
+    font-weight: 500;
+    text-align: center;
+}
+
+@media (max-width: 480px) {
+    .consulta{
+        display: none;
+    }
+}
