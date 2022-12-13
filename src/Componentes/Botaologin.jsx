@@ -20,20 +20,12 @@ const navigate = useNavigate ()
 
   }  function SubmitEvent() {
     setIsOpen(true);
-<<<<<<< HEAD
 
-=======
-    
->>>>>>> 420b267ddad214b9f511403020640a5b6018f8c0
   }
 
   return (
     <div className={styles.Container}>
-<<<<<<< HEAD
-      <button className="bttn-header" onClick={openModal}>Acesso</button>
-=======
       <button className="bttn-header" onClick={openModal}>Login</button>
->>>>>>> 420b267ddad214b9f511403020640a5b6018f8c0
       <Modal
         isOpen={modalIsOpen}
         onRequestClose={closeModal}
@@ -54,20 +46,15 @@ const navigate = useNavigate ()
         <br></br>
         <div className="bttn">
 
-<<<<<<< HEAD
-          <button className="bttn2" onClick={()=>navigate("/Pagina_Refugiado")}>
+          <button className="bttn2" onClick={()=>navigate("/Pagina_psicologo")}>
             Entrar
           </button>
           <button className="bttn2" onClick={()=>navigate("/Pagina_psicologo")}>
             Cadastrar
           </button>
-=======
-          <button className="bttn2" onClick={()=>navigate("/Pagina_psicologo")}>
-            Entrar
-          </button>
->>>>>>> 420b267ddad214b9f511403020640a5b6018f8c0
         </div>
       </Modal>
     </div>
-  )};
-  export default App;
+  );
+}
+export default App;
