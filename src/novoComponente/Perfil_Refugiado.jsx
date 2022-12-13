@@ -17,7 +17,7 @@ function Perfil_Refugiado(){
         <section className={styles.Perfil_Refugiado}>
             <div className={styles.Perfil}>
             <Perfil foto={fotorefugiado} 
-            nome="Refugiado" 
+            nome="Wesley Ribeiro" 
             descricao="Gana" 
             quem_sou="Eu me chamo Gabriel, tenho 22 anos e vim refugiado de Gana, estou no Brasil a 2 anos, no meu país eu era engenheiro mas precisei sair de lá por conta da guerra" />
             </div>

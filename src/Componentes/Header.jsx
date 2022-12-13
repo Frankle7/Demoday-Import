@@ -8,32 +8,34 @@ function Header() {
   return (
     <header className={styles.content}>
       <img src={Logo} alt="Logo" className={styles.logo} />
-    <div className={styles.navdentro}>
-      <nav className={styles.dp_menu}>
-        <ul className={styles.lista}>
-          <li>
-            <Link to="/Pagina_Home">
-              <a href="#" className={styles.botaohome}>
-                Home
+      <div className={styles.navdentro}>
+        <nav className={styles.dp_menu}>
+          <ul className={styles.lista}>
+            <li className={styles.botaohome}>
+              <Link to="/">Home</Link>
+            </li>
+            <li className={styles.botaodoar}>
+              <Link to="/Pagina_Voluntario">
+                Seja um <br /> Voluntario</Link>
+             
+            </li>
+            <li className={styles.botaodoar}>
+            <Link to="/">Integra</Link>
+              
+            </li>
+            <li className={styles.botaodoar}>
+              <a
+                href="https://www.vakinha.com.br/vaquinha/import-uma-plataforma-que-se-importa"
+                target={"_blank"}
+              >
+                Doar
               </a>
-            </Link>
-          </li>
-          <li>
-            <a
-              href="https://www.vakinha.com.br/vaquinha/import-uma-plataforma-que-se-importa"
-              className={styles.botaohome}
-              target={"_blank"}
-            >
-              Doar
-            </a>
-          </li>
-        </ul>
-        <div className={styles.login}>
-          
+            </li>
+          </ul>
+          <div className={styles.login}>
             <Botaologin />
-          
-        </div>
-      </nav>
+          </div>
+        </nav>
       </div>
     </header>
   );
