@@ -74,7 +74,8 @@ z-index: 1;}
     
     
 }
-.depoitxt p{background-color: #a74300a2;border-radius: 10px;}
+.depoitxt p{
+    border-radius: 10px;}
 .depoimage img{
     width: 100%;
     height: 100%;
